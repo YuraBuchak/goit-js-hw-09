@@ -35,4 +35,6 @@ formEl.addEventListener('submit', event => {
       });
     delay += step;
   }
+
+  formEl.reset();
 });

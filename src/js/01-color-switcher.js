@@ -3,6 +3,7 @@ const btnStoptEl = document.querySelector('button[data-stop]');
 const bodyEl = document.querySelector('body');
 
 btnStoptEl.disabled = true;
+let colorInterval;
 
 btnStartEl.addEventListener('click', () => {
   chagngeBgrColor();
